@@ -1,0 +1,47 @@
+﻿body 
+{
+    margin: 0px;
+    padding: 0px;
+}
+.l1
+{
+    position: absolute;
+    font-weight:bold;
+    font-size: large;
+    top: 18%;
+    left: 26%;
+}
+.tb
+{
+    position: absolute;
+    width: 400PX;
+    top: 18%;
+    left: 35%;
+}
+.b1
+{
+    position: absolute;
+    top: 18%;
+    left: 58.5%;
+    background-color: Blue;
+    color: White;
+    font-weight:bold;
+}
+.b2
+{
+    position: absolute;
+    top: 18%;
+    left: 63%;
+    background-color: Blue;
+    color: White;
+    font-weight:bold;
+}
+.b3
+{
+    position: absolute;
+    top: 18%;
+    left: 67.5%;
+    background-color: Blue;
+    color: White;
+    font-weight:bold;
+}   

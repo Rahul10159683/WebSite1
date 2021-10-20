@@ -1,0 +1,442 @@
+﻿body{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.m-logo{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 1px 1px 10px rgb(204, 204, 204);
+}
+.m-logo-1
+{
+    height: 70px;
+}
+.m-logo-2{
+    height:150px;
+    /* color: black; */
+}
+.imig
+{
+    height: 80px;
+}
+.i
+{
+    position: absolute;
+    top: 28%;
+    right: 70%;
+}
+
+.m-body{
+
+}
+.m-body-1{
+
+}
+
+.m-body-2{
+    height:500px;
+}
+
+.m-login-form{
+    max-width: 80%;
+}
+
+.navbar img{
+    padding-left:50px;
+}
+
+.navbar li{
+    padding-left: 40px;
+
+}
+.navbar li:last-of-type{
+    position: absolute;
+    right:100px;
+}
+
+.m-footer-main{
+    padding-top: 20px;
+    background-color: rgb(21, 21, 31);
+    margin: 0px;
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.m-footer-main a{
+    text-decoration: none;
+    color: #fff;
+}
+.m-indiapost-logo{
+    margin-top: 0px;
+    margin-left: 10px;
+}
+/* FOOTER ENDS */
+
+/* Index page Body starts */
+
+.m-body-index{
+    background: rgb(243, 243, 243);
+    margin: 50px 0 50px 0;
+    padding: 70px;
+}
+.m-login-form{
+    max-width: 80%;
+}
+
+
+
+
+/* Index page Body Ends */
+/* dashboard page Body starts */
+
+.m-body-dashboard{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.dashboardbox{
+    position: relative;
+    width: 200px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    box-shadow: 1px 1px 10px rgb(204, 204, 204);
+    margin: 40px 20px 40px 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: width 2s;
+
+}
+.dashboardbox.selected{
+    width: 400px;
+        height: 700px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    box-shadow: 1px 1px 10px rgb(204, 204, 204);
+    margin: 40px 20px 40px 20px;
+    padding: 10px;
+    cursor: pointer;
+    transition: width 2s;
+
+}
+.dashboardbox.selected ul{
+    display: block;
+    opacity: 1;
+    visibility: Visible;
+}
+.dashboardbox.selected h5
+{
+    display: block;
+    text-align: center;
+    opacity: 1;
+    visibility: Visible;
+}
+
+.dashboardbox ul li{
+    text-decoration: none;
+    list-style: none;
+    text-align:center;
+}
+
+.dashboardbox h4{
+    text-align: center;
+    margin: 70px 0px 10px 0px;
+    
+}
+.dashboardbox .fa-3x{
+    /* width: inherit; */
+    align-self: center;
+    position: absolute;
+    top: 10px;
+}
+
+.dashboardbox ul{
+    display: none;
+    transition: all 0.7s ease-in;
+    /* transition: visibility 0.3s ease-in; */
+    opacity: 0;
+    visibility: visible;
+}
+
+.dashboardbox h5{
+    display: none;
+    transition: opacity 0.7s ease-in;
+    /* transition: visibility 0.3s ease-in; */
+    opacity: 0;
+    visibility: visible;
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+}
+
+/*.dashboardbox.selected:hover
+{
+    width: 400px;
+    visibility: visible;
+    background-size: 400px 140px;
+}*/
+
+.img
+{
+    position:absolute;
+    height: 150px;
+    width: 175px;
+    text-align: center;
+    top: 10px;
+    left: 30%;
+}
+
+
+/* Dashboard page Body ends */
+
+
+
+/* pass change page Body starts */
+
+
+.m-body-changepassword{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* pass change page Body ENDS */
+
+/* LEADERBOARD page Body starts */
+
+.m-body-leaderboard{
+    background: rgb(243, 243, 243);
+    margin: 20px 0 50px 0;
+    padding: 70px;
+    display: flex;
+    flex-direction: column;
+    
+    /* justify-content: center; */
+}
+
+
+.m-body-leaderboard .card{
+    margin: 10px;
+    min-width: 500px;
+}
+
+.m-body-leaderboard .m-row{
+    display: flex;
+    flex-direction: row!important;
+}
+.m-body-leaderboard h3{
+    background-color: rgb(235, 235, 235);
+    color: rgb(41, 41, 41);
+}
+
+.m-sq-box{
+    border-radius: 5px;
+    border: 0.5px dashed rgba(0,0,0,0.2);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+/* LEADER BOARD page Body ENDS */
+
+
+/* POSB page Body Starts */
+
+.m-body-posb
+{
+    background: rgb(173, 215, 245);
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.m-row
+{
+
+}
+.bard
+{
+    background-color: White;
+    width: 900px;
+    height: auto;
+}
+.m-sq-box h3
+{
+    text-align: center;
+}
+
+.m-sq-box h5
+{
+    text-align: center;
+}
+
+.m-sq-box-posb{
+    border-radius: 5px;
+    border: 0.5px dashed rgba(0,0,0,0.2);
+    padding: 30px;
+    margin: 0px 10px 50px 10px;
+}
+
+.m-sq-box-posb h3{
+    text-align: center;
+}
+.m-sq-box-posb h5{
+    text-align: center;
+}
+.m-sq-box-posb .card
+{
+   min-width: 900px;
+}
+
+.m-sq-box-posb:last-of-type{
+    border-radius: 5px;
+    border: 0.5px dashed rgba(0,0,0,0.2);
+    padding: 5px;
+    min-width: 94%;
+    margin: 20px 20px 10px 10px;
+}
+
+
+
+
+.m-body-posb h3{
+    background-color: rgb(235, 235, 235);
+    color: rgb(41, 41, 41);
+}
+
+
+
+/* POSB page Body ends*/
+.bosb{
+    display: none;
+    box-shadow: 1px 1px 10px rgb(204, 204, 204);
+    background-color: #fff;
+    margin-top: 20px;
+}
+
+.bosb.active{
+    display: block;
+}
+
+
+
+.cltp .header-ticker{
+    display: flex;
+    flex-direction: row;
+    width:100%;
+    height:25%;
+    position: relative;
+}
+.cltp .header-ticker .ticker1.active{
+    opacity:1;
+    visibility: visible;
+}
+.cltp .header-ticker .ticker2.active{
+    opacity:1;
+    visibility: visible;
+}
+.cltp .header-ticker .ticker1{
+    opacity:0;
+    visibility: hidden;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: all 1s ease-in
+}
+.cltp .header-ticker .ticker2{
+    opacity:0;
+    visibility: hidden;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    transition: all 1s ease-in
+}
+
+.header-ticker
+{
+    height: 650px;
+}
+.header-ticker ul 
+{
+    background-image: url(Images/TP.jpg);
+    background-size: 380px 140px;
+}
+.gview
+{
+    width: 99%; 
+}
+@media only screen and (max-width:1060px)
+{
+   .m-sq-box-posb:last-of-type
+    {
+    background: rgb(173, 215, 245);
+    margin: 0px;
+    padding: 0px;
+   
+   width: 100%;
+   align-items: center;
+   justify-content: center;
+    }
+.m-sq-box-posb
+{
+    width: 100%;
+}
+.m-sq-box-posb .card
+{
+    min-width: 100%;
+}
+
+.m-row
+{
+    padding: 0px;
+    margin: 0px;
+}
+.m-sq-body-posb
+{
+    position: absolute;
+    left: 0px;
+}
+.m-body-posb
+{
+    display:block;
+}
+.card-body
+{
+    width: 100%;
+}
+h5
+{
+    width: 100%;
+}
+   h3
+   {
+       width: 100%;
+   }
+   .gview
+    {
+        width: 100%;
+    }
+    .m-body
+    {
+    padding: 0px;
+    margin: 0px;
+    }
+        
+}

@@ -1,0 +1,131 @@
+﻿body 
+{
+    margin: 0px;
+    padding: 0px;
+}
+.Att
+{
+    Position: absolute;
+    top: 17.5%;
+    left: 5%;
+    width: 400px;
+    text-align: center;
+    height:60%;
+    border-color: #f2f2f2;
+    border-style:solid;
+    box-sizing: border-box;
+}
+.MP
+{
+    Position: absolute;
+    top: 17.5%;
+    left: 40%;
+    width: 400px;
+    text-align: center;
+    height:60%;
+    border-color: #f2f2f2;
+    border-style:solid;
+    box-sizing: border-box;
+}
+.CP
+{
+    Position: absolute;
+    top: 17.5%;
+    left: 75%;
+    width: 400px;
+    text-align: center;
+    height:60%;
+    border-color: #f2f2f2;
+    border-style:solid;
+    box-sizing: border-box;
+}
+.p1
+{
+    position:absolute;
+    height: 80%;
+    width: 100%;
+    border-style:solid;
+    border-color: transparent;
+    box-sizing: border-box;
+}
+.a1
+{
+    position:absolute;
+    left: 25%;
+    top: 5%;
+    color: #a9a9a9;
+    font-weight:bold;
+}
+.a2
+{
+    position:absolute;
+    text-align:center;
+    top: 20%;
+     left: 35%;
+    color: #a9a9a9;
+    font-weight:bold;
+}
+.a3
+{
+    position:absolute;
+    text-align:center;
+    top: 60%;
+     left: 36.5%;
+    color: #a9a9a9;
+    font-weight:bold;
+}
+.b1
+{
+    position:absolute;
+    left: 32%;
+    top: 5%;
+    color: #a9a9a9;
+    font-weight:bold;
+}
+.b2
+{
+    position:absolute;
+    text-align:center;
+    background-color: Green;
+    top: 20%;
+     left: 36%;
+    color: White;
+    font-weight:bold;
+}
+.b3
+{
+    position:absolute;
+    text-align:center;
+    top: 60%;
+     left: 36.5%;
+    color: White;
+    background-color:Red;
+    font-weight:bold;
+}
+
+.c1
+{
+    position:absolute;
+    left: 23%;
+    top: 5%;
+    color: #a9a9a9;
+    font-weight:bold;
+}
+.c2
+{
+    position:absolute;
+    text-align:center;
+    top: 20%;
+     left: 22.5%;
+    color: White;
+    font-weight:bold;
+}
+.c3
+{
+    position:absolute;
+    text-align:center;
+    top: 60%;
+     left: 24%;
+    color: White;
+    font-weight:bold;
+}
